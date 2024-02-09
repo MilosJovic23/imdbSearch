@@ -2,8 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import  axios  from 'axios';
 
-
-
  console.log(process.env.REACT_APP_OMDBAPI_KEY)
 
     console.log(process.env.REACT_APP_URL+"?t=Terminator&apikey="+process.env.REACT_APP_OMDBAPI_KEY)
