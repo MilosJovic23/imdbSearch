@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+const API_KEY="d53f3665";
+
+// https://www.omdbapi.com/?t=Terminator&apikey=d53f3665
+
 
 function App() {
   return (
