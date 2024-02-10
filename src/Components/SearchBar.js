@@ -1,7 +1,7 @@
 
 
 import  axios  from 'axios';
-import {useState} from "react";
+import { useState } from "react";
 
 const SearchBar= ()=>{
     const [searchTitle,setSearchTitle]=useState()
