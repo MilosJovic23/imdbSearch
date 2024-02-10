@@ -16,7 +16,6 @@ const SearchBar= ()=>{
     }
 
 
-
     return(
       <form>
           <input type="text" onInput={e=>{setSearchTitle(e.target.value)}}/>
