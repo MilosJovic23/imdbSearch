@@ -3,7 +3,7 @@ import './App.css';
 
 import SearchBar from "./Components/SearchBar";
 
-const ImdbSearch = ()=> {
+const App = ()=> {
     return (
         <>
             <SearchBar/>
@@ -11,4 +11,4 @@ const ImdbSearch = ()=> {
 
     )
 }
-export default ImdbSearch
+export default App
