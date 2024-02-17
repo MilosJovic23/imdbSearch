@@ -28,7 +28,7 @@ const SearchBar= ()=>{
                 <button type="button" onClick={searchMovies}>Search Movies</button>
             </form>
 
-            <MovieInfo data={moviesData}/>
+            <MovieInfo movie={moviesData}/>
         </>
 
 

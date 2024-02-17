@@ -1,15 +1,15 @@
 
 
 
-const Movieinfo=(props)=>{
+const Movieinfo=({movie})=>{
 
-console.log(props)
+console.log(movie)
     return(
         <>
             <div>
-                <img src={props.data.Poster} alt="move poster"/>
-                <h2>{props.data.Title}</h2>
-                <p>{props.data.Plot}</p>
+                <img src={movie.Poster} alt="move poster"/>
+                <h2>{movie.Title}</h2>
+                <p>{movie.Plot}</p>
             </div>
 
         </>
