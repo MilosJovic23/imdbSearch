@@ -6,23 +6,23 @@ const Footer =()=>{
 
     return(
 
-        <footer className="page-footer bg-dark-subtle pt-2">
+        <footer className="page-footer bg-dark pt-2">
             <div className="container  text-center text-md-left ">
 
                     <ul className="d-flex gap-5 list-unstyled  text-dark justify-content-center align-items-center">
-                        <h5 className="m-0">MoviesOnline</h5>
+                        <h5 className="m-0 text-light-emphasis">MoviesOnline</h5>
                         <li>
-                            <a href="#home" className="text-decoration-none text-light-emphasis">Home</a>
+                            <a href="#home" className="text-decoration-none link-light link-opacity-50-hover">Home</a>
                         </li>
                         <li>
-                            <a href="#About" className="text-decoration-none text-light-emphasis">Trending Movies</a>
+                            <a href="#trending" className="text-decoration-none link-light link-opacity-50-hover">Trending Movies</a>
                         </li>
                         <li>
-                            <a href="#Tranding" className="text-decoration-none text-light-emphasis">About</a>
+                            <a href="#about" className="text-decoration-none link-light link-opacity-50-hover">About</a>
                         </li>
                     </ul>
-                    <div className="text-dark page-item p-2">
-                        <h6>copyright@www.moviesonline.com</h6>
+                    <div className="text-dark page-item p-2 text-light-emphasis">
+                        <p>copyright @ www.moviesonline.com 2024</p>
                     </div>
             </div>
 

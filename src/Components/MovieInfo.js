@@ -1,6 +1,6 @@
 
 
-
+import "bootstrap/dist/css/bootstrap.min.css"
 const Movieinfo=({movie})=>{
 
 console.log(movie)
@@ -8,7 +8,7 @@ console.log(movie)
         <>
             <div>
                 <img src={movie.Poster} alt="move poster"/>
-                <h2>{movie.Title}</h2>
+                <h5>{movie.Title}</h5>
                 <p>{movie.Plot}</p>
             </div>
 

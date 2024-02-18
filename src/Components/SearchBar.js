@@ -4,7 +4,7 @@ import MovieInfo from "./MovieInfo";
 import "bootstrap/dist/css/bootstrap.min.css"
 
 const SearchBar= ()=>{
-    const [searchTitle,setSearchTitle]=useState("")
+    const [searchTitle,setSearchTitle]=useState("Hobbit")
     const [moviesData,setMoviesData]=useState({})
     const searchMovies=()=>{
 
