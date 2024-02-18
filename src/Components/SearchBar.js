@@ -1,6 +1,7 @@
 import  axios  from 'axios';
 import { useState, useEffect } from "react";
 import MovieInfo from "./MovieInfo";
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const SearchBar= ()=>{
     const [searchTitle,setSearchTitle]=useState("")
@@ -22,10 +23,10 @@ const SearchBar= ()=>{
     return(
         <>
             <form>
-                <input type="text" onInput={e => {
+                <input  type="text" onInput={e => {
                     setSearchTitle(e.target.value)
                 }}/>
-                <button type="button" onClick={searchMovies}>Search Movies</button>
+                <button className="btn btn-outline-dark " type="button" onClick={searchMovies}>Search Movies</button>
             </form>
 
             <MovieInfo movie={moviesData}/>
