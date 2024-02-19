@@ -23,7 +23,7 @@ const SearchBar= ()=>{
     return(
         <>
             <form>
-                <input  type="text" onInput={e => {
+                <input type="text" onInput={e => {
                     setSearchTitle(e.target.value)
                 }}/>
                 <button className="btn btn-outline-dark " type="button" onClick={searchMovies}>Search Movies</button>
