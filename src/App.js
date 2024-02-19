@@ -9,11 +9,9 @@ const App = ()=> {
 
     return (
         <>
+
             <Navigation/>
-
                 <Search/>
-                <SearchBar/>
-
 
             <Footer/>
         </>

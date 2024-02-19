@@ -4,8 +4,11 @@
 }
 
 .movieCard{
-    width:20vh;
+    width:30vh;
     height:100%;
     box-sizing: border-box;
-    background-color: #9c9ca8;
+    background-color: #464650;
+}
+.movieCard , img{
+    height:100%;
 }
