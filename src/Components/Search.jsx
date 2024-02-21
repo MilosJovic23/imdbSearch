@@ -1,7 +1,7 @@
 import {Button, Form} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import "bootstrap/dist/css/bootstrap.min.css"
-import {useState} from "react";
+import { useState } from "react";
 import axios from "axios";
 import SearchResults from "../Templates/SearchResults";
 
@@ -15,6 +15,7 @@ const Search =()=>{
             .catch(error=>console.log(error))
 
     }
+
 
     return(
         <>
@@ -33,7 +34,11 @@ const Search =()=>{
                     </Container>
                 </Form>
 
-            <SearchResults movies={movies}/>
+                    <SearchResults movies={movies}/>
+
+
+
+
 
 
         </>
