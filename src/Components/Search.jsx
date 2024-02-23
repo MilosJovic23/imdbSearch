@@ -34,7 +34,9 @@ const Search =()=>{
                     </Container>
                 </Form>
 
-                    <SearchResults movies={movies}/>
+                        <SearchResults movies={movies}/>
+
+
 
 
 

@@ -1,6 +1,5 @@
 
 import Container from "react-bootstrap/Container";
-
 import MovieCard from "./Snippets/MovieCard";
 
 
