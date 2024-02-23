@@ -36,13 +36,6 @@ const Search =()=>{
 
                         <SearchResults movies={movies}/>
 
-
-
-
-
-
-
-
         </>
     )
 }
