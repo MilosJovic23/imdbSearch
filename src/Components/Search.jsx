@@ -26,7 +26,6 @@ const Search =()=>{
                             <Form.Label>movie title</Form.Label>
                             <Form.Control type="text" placeholder="Enter movie title" onInput={e=>setSearchTerm(e.currentTarget.value)} />
 
-
                         </Form.Group>
                         <Button onClick={Search} className="btn btn-outline-light mt-3"  type="button">
                             Search
