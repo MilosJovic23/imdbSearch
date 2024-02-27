@@ -13,9 +13,9 @@ const MovieCard=()=> {
         <>
             {movies.map((movie,index)=> {
                        return (
-                           <div className="movieCard p-2 text-center rounded-2 mt-2 ms-2 mb-2">
-                                <img className="img-thumbnail" src={movie.Poster} key={index} alt="move poster"/>
-                                <h5 className="text-light mt-2 ">{movie.Title}</h5>
+                           <div className="movieCard p-2 text-center rounded-2 mt-2 ms-2 mb-2"  key={index}>
+                                <img className="img-thumbnail" src={movie.Poster} alt="move poster"/>
+                                <h5 className="text-light mt-2 " >{movie.Title}</h5>
                                 <i className="text-black-50">{movie.Year}</i>
                            </div>)
             })}
