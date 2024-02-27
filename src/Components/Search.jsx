@@ -1,10 +1,10 @@
 import {Button, Form} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import "bootstrap/dist/css/bootstrap.min.css"
-import { useState } from "react";
+import {createContext, useState} from "react";
 import axios from "axios";
 import SearchResults from "../Templates/SearchResults";
-
+export const moviesContext=createContext()
 const Search =()=>{
 
     const [movies,setMovies]= useState([])
@@ -32,8 +32,10 @@ const Search =()=>{
                         </Button>
                     </Container>
                 </Form>
+                <moviesContext.Provider value={{movies}}>
+                    <SearchResults />
+                </moviesContext.Provider>
 
-                        <SearchResults movies={movies}/>
 
         </>
     )
