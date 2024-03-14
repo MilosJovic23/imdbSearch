@@ -1,9 +1,7 @@
-
 import "./../../movieCard.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { useContext } from "react";
 import { moviesContext } from "../../Components/Search";
-
 
 const MovieCard=()=> {
 
